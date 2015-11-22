@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FunFacts" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMw-Rn-EuU">
+                                <rect key="frame" x="40" y="257" width="520" height="86"/>
+                                <animations/>
+                                <string key="text">If you consistently fart for 6 years &amp; 9 months, enough gas is produced to create the energy of an atomic bomb! If you consistently fart for 6 years &amp; 9 months, enough gas is produced to create the energy of an atomic bomb!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="180" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ji-Ft-XYh">
+                                <rect key="frame" x="60" y="480" width="480" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="mEm-o5-1wO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="tintColor" red="0.36470588240000001" green="0.30196078430000001" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Show another fun fact"/>
+                                <connections>
+                                    <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="WhF-Vz-cGz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g67-sT-R6S">
+                                <rect key="frame" x="40" y="110" width="111.5" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.36470588235294116" green="0.30196078431372547" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="TMw-Rn-EuU" secondAttribute="trailing" constant="20" id="56T-rR-Jyr"/>
+                            <constraint firstItem="g67-sT-R6S" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="9Tj-N0-G0c"/>
+                            <constraint firstItem="TMw-Rn-EuU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" placeholder="YES" id="FFD-rQ-fXv"/>
+                            <constraint firstItem="TMw-Rn-EuU" firstAttribute="top" secondItem="g67-sT-R6S" secondAttribute="bottom" constant="120" placeholder="YES" id="GTk-Xz-WqY"/>
+                            <constraint firstItem="TMw-Rn-EuU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" placeholder="YES" id="Gye-Nx-M58"/>
+                            <constraint firstItem="TMw-Rn-EuU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" placeholder="YES" id="Jcg-2Z-jLu"/>
+                            <constraint firstItem="TMw-Rn-EuU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" placeholder="YES" id="QHe-TX-ONW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6ji-Ft-XYh" secondAttribute="bottom" constant="80" id="QWi-ee-Nco"/>
+                            <constraint firstItem="TMw-Rn-EuU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="UmK-k1-Xgj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TMw-Rn-EuU" secondAttribute="trailing" constant="20" placeholder="YES" id="aIq-LU-5EG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6ji-Ft-XYh" secondAttribute="trailing" constant="40" id="eOp-EZ-Ebm"/>
+                            <constraint firstItem="6ji-Ft-XYh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="eW5-iu-u1q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TMw-Rn-EuU" secondAttribute="trailing" constant="20" placeholder="YES" id="hN0-xx-J8A"/>
+                            <constraint firstItem="TMw-Rn-EuU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sk9-8K-9KI"/>
+                            <constraint firstItem="TMw-Rn-EuU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" placeholder="YES" id="tRt-14-jCU"/>
+                            <constraint firstItem="TMw-Rn-EuU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" placeholder="YES" id="u0z-uT-EJY"/>
+                            <constraint firstItem="g67-sT-R6S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="u8O-sB-Fdw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FFD-rQ-fXv"/>
+                                <exclude reference="GTk-Xz-WqY"/>
+                                <exclude reference="Gye-Nx-M58"/>
+                                <exclude reference="Jcg-2Z-jLu"/>
+                                <exclude reference="QHe-TX-ONW"/>
+                                <exclude reference="aIq-LU-5EG"/>
+                                <exclude reference="hN0-xx-J8A"/>
+                                <exclude reference="tRt-14-jCU"/>
+                                <exclude reference="u0z-uT-EJY"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="funFactButton" destination="6ji-Ft-XYh" id="wTd-Ac-VUq"/>
+                        <outlet property="funFactLabel" destination="TMw-Rn-EuU" id="Wmg-3I-NVR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304" y="366"/>
+        </scene>
+    </scenes>
+</document>
